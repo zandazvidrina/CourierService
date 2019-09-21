@@ -1,0 +1,61 @@
+﻿@model ParseTheParcel.Business.Models.Parcel
+
+@{
+    ViewBag.Title = "ParcelData";
+}
+
+<h2 class="light-background">
+    Your have a
+    <strong>@Html.DisplayFor(model => model.Size)</strong>
+    sized package
+</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal light-background">
+        <dt>
+            @Html.DisplayNameFor(model => model.Length)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Length)
+            mm
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Breadth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Breadth)
+            mm
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Height)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Height)
+            mm
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Weight)
+            kg
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+            $
+        </dd>
+
+    </dl>
+</div>
+

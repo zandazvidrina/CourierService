@@ -1,0 +1,62 @@
+﻿html, body {
+    height: 90%;
+}
+
+body {
+    background-image: url("/Images/wood_unsplash.jpg");
+    background-position: center; 
+    background-size: cover;
+    color: white;
+}
+
+.jumbotron {
+    margin-top: 10px;
+    background: black;
+    opacity: 0.7;
+    color: white;
+}
+
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+    a:hover {
+        color: white;
+        opacity: 0.6;
+    }
+
+img {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.light-background {
+    width: 75%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(0,0,9,.5);
+    border-radius: 10px;
+}
+
+.validation-red:not(:empty) {
+    padding: 2px;
+    background-color: rgba(139,0,0,.5);
+    border-radius: 5px;
+    color: white;
+}
+
+.contactDetails {
+    width: 50%;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.bodyContent {
+    margin-bottom: -330px;
+}
